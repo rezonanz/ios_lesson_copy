@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		792F4FE62AF01D4600EB43E5 /* BeerTableViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792F4FE52AF01D4600EB43E5 /* BeerTableViewControllerFactory.swift */; };
+		798ED7422AF0093400C817F6 /* BeerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798ED7412AF0093400C817F6 /* BeerDTO.swift */; };
+		798ED7442AF0094400C817F6 /* BeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798ED7432AF0094400C817F6 /* BeerService.swift */; };
+		798ED7462AF00E5C00C817F6 /* BeerTableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798ED7452AF00E5C00C817F6 /* BeerTableManager.swift */; };
+		798ED7482AF0115700C817F6 /* BeerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798ED7472AF0115700C817F6 /* BeerTableView.swift */; };
+		79ACB7032AD449210095A6C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ACB7022AD449210095A6C1 /* AppDelegate.swift */; };
+		79ACB7052AD449210095A6C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ACB7042AD449210095A6C1 /* SceneDelegate.swift */; };
+		79ACB7072AD449210095A6C1 /* BeerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ACB7062AD449210095A6C1 /* BeerTableViewController.swift */; };
+		79ACB70C2AD449220095A6C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79ACB70B2AD449220095A6C1 /* Assets.xcassets */; };
+		79ACB70F2AD449220095A6C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79ACB70D2AD449220095A6C1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		792F4FE52AF01D4600EB43E5 /* BeerTableViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableViewControllerFactory.swift; sourceTree = "<group>"; };
+		798ED7412AF0093400C817F6 /* BeerDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDTO.swift; sourceTree = "<group>"; };
+		798ED7432AF0094400C817F6 /* BeerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerService.swift; sourceTree = "<group>"; };
+		798ED7452AF00E5C00C817F6 /* BeerTableManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableManager.swift; sourceTree = "<group>"; };
+		798ED7472AF0115700C817F6 /* BeerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableView.swift; sourceTree = "<group>"; };
+		79ACB6FF2AD449210095A6C1 /* HSE Punk Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HSE Punk Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79ACB7022AD449210095A6C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79ACB7042AD449210095A6C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79ACB7062AD449210095A6C1 /* BeerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableViewController.swift; sourceTree = "<group>"; };
+		79ACB70B2AD449220095A6C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79ACB70E2AD449220095A6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79ACB7102AD449220095A6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79ACB6FC2AD449210095A6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		798ED73F2AF008FB00C817F6 /* BeerTable */ = {
+			isa = PBXGroup;
+			children = (
+				79ACB7062AD449210095A6C1 /* BeerTableViewController.swift */,
+				798ED7412AF0093400C817F6 /* BeerDTO.swift */,
+				798ED7432AF0094400C817F6 /* BeerService.swift */,
+				798ED7452AF00E5C00C817F6 /* BeerTableManager.swift */,
+				798ED7472AF0115700C817F6 /* BeerTableView.swift */,
+				792F4FE52AF01D4600EB43E5 /* BeerTableViewControllerFactory.swift */,
+			);
+			path = BeerTable;
+			sourceTree = "<group>";
+		};
+		79ACB6F62AD449210095A6C1 = {
+			isa = PBXGroup;
+			children = (
+				79ACB7012AD449210095A6C1 /* HSE Punk Project */,
+				79ACB7002AD449210095A6C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79ACB7002AD449210095A6C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79ACB6FF2AD449210095A6C1 /* HSE Punk Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79ACB7012AD449210095A6C1 /* HSE Punk Project */ = {
+			isa = PBXGroup;
+			children = (
+				798ED73F2AF008FB00C817F6 /* BeerTable */,
+				79ACB7022AD449210095A6C1 /* AppDelegate.swift */,
+				79ACB7042AD449210095A6C1 /* SceneDelegate.swift */,
+				79ACB70B2AD449220095A6C1 /* Assets.xcassets */,
+				79ACB70D2AD449220095A6C1 /* LaunchScreen.storyboard */,
+				79ACB7102AD449220095A6C1 /* Info.plist */,
+			);
+			path = "HSE Punk Project";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79ACB6FE2AD449210095A6C1 /* HSE Punk Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79ACB7132AD449220095A6C1 /* Build configuration list for PBXNativeTarget "HSE Punk Project" */;
+			buildPhases = (
+				79ACB6FB2AD449210095A6C1 /* Sources */,
+				79ACB6FC2AD449210095A6C1 /* Frameworks */,
+				79ACB6FD2AD449210095A6C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HSE Punk Project";
+			productName = "HSE Punk Project";
+			productReference = 79ACB6FF2AD449210095A6C1 /* HSE Punk Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79ACB6F72AD449210095A6C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					79ACB6FE2AD449210095A6C1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 79ACB6FA2AD449210095A6C1 /* Build configuration list for PBXProject "HSE Punk Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79ACB6F62AD449210095A6C1;
+			productRefGroup = 79ACB7002AD449210095A6C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79ACB6FE2AD449210095A6C1 /* HSE Punk Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79ACB6FD2AD449210095A6C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ACB70F2AD449220095A6C1 /* LaunchScreen.storyboard in Resources */,
+				79ACB70C2AD449220095A6C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79ACB6FB2AD449210095A6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79ACB7072AD449210095A6C1 /* BeerTableViewController.swift in Sources */,
+				798ED7442AF0094400C817F6 /* BeerService.swift in Sources */,
+				798ED7462AF00E5C00C817F6 /* BeerTableManager.swift in Sources */,
+				798ED7422AF0093400C817F6 /* BeerDTO.swift in Sources */,
+				792F4FE62AF01D4600EB43E5 /* BeerTableViewControllerFactory.swift in Sources */,
+				79ACB7032AD449210095A6C1 /* AppDelegate.swift in Sources */,
+				798ED7482AF0115700C817F6 /* BeerTableView.swift in Sources */,
+				79ACB7052AD449210095A6C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79ACB70D2AD449220095A6C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79ACB70E2AD449220095A6C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79ACB7112AD449220095A6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79ACB7122AD449220095A6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79ACB7142AD449220095A6C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V72FC8R65V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HSE Punk Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Roman.HSE-Punk-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79ACB7152AD449220095A6C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V72FC8R65V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HSE Punk Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Roman.HSE-Punk-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79ACB6FA2AD449210095A6C1 /* Build configuration list for PBXProject "HSE Punk Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79ACB7112AD449220095A6C1 /* Debug */,
+				79ACB7122AD449220095A6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79ACB7132AD449220095A6C1 /* Build configuration list for PBXNativeTarget "HSE Punk Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79ACB7142AD449220095A6C1 /* Debug */,
+				79ACB7152AD449220095A6C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79ACB6F72AD449210095A6C1 /* Project object */;
+}
