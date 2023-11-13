@@ -35,6 +35,8 @@ final class BeerTableViewController: UIViewController {
 
 extension BeerTableViewController: BeerTableViewDelegate {
     func didSelectRow(_ beerModel: BeerDTO) {
-        
+        let vc = BeerDetailsViewController()
+        vc.beerModel = beerModel
+        present(vc, animated: true)
     }
 }
