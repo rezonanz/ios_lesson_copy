@@ -1,16 +1,10 @@
-//
-//  ViewController.swift
-//  HSE Punk Project
-//
-//  Created by Рогаткин Роман on 09.10.2023.
-//
-
 import UIKit
 import Foundation
 
 final class BeerTableViewController: UIViewController {
     private lazy var contentView: BeerTableView = {
         let view = BeerTableView()
+        view.delegate = self
         return view
     }()
 
@@ -36,5 +30,11 @@ final class BeerTableViewController: UIViewController {
                 self.contentView.configure(with: beers)
             }
         }
+    }
+}
+
+extension BeerTableViewController: BeerTableViewDelegate {
+    func didSelectRow(_ beerModel: BeerDTO) {
+        
     }
 }
